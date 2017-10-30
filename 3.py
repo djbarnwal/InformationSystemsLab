@@ -10,10 +10,10 @@ a=np.array([[1,8,-9,7,5],
            [0,0,0,1,-5],
            [0,0,0,0,1]])
 
-print("Determinant: ")
+print("Determinant of matrix A: ")
 print(scipy.linalg.det(a))
 
-print("Inverse: ")
+print("Inverse of matrix A: ")
 print(linalg.inv(a))
 
 lam,evec=linalg.eig(a)
